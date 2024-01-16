@@ -26,7 +26,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id="dag_with_python_operator_8",
+    dag_id="dag_with_python_operator",
     default_args=default_args,
     description="DAG using pyhton operator ",
     start_date=datetime(2024, 1, 1, 2),
