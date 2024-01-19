@@ -22,7 +22,7 @@ Launching a MINIO docker container:
 docker run \
    -p 9000:9000 \
    -p 9001:9001 \
-   --name minio \
+   --name minio2 \
    -v ~/minio/data:/data \
    -e "MINIO_ROOT_USER=ROOTNAME" \
    -e "MINIO_ROOT_PASSWORD=CHANGEME123" \
